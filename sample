@@ -1,0 +1,11 @@
+const int D = 13; //PIN 2
+
+void setup() {
+  pinMode(D, OUTPUT);
+  
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(D, HIGH);
+}
